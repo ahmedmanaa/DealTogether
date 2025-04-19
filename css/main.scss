@@ -12,9 +12,20 @@ $mid_margin: 26px;
 $LG_margin: 40px;
 
 .mainFlex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start_Flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.between_Flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .background_cover {
     background-size: cover !important;
