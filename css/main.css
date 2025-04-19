@@ -1538,7 +1538,7 @@ img {
   background: #32B04A;
   color: #fff;
   text-align: center;
-  bottom: 70px;
+  bottom: 20px;
   z-index: 900;
   line-height: 46px;
 }
@@ -1810,11 +1810,11 @@ img {
     top: 16px;
     right: 20px;
     cursor: pointer;
+    transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
-    -khtml-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
   }
   [dir="ltr"] #burgerBtn {
     right: auto;
@@ -1881,6 +1881,9 @@ img {
   }
   .darkMob_bk {
     background-color: #080024;
+  }
+  .go-top {
+    bottom: 70px;
   }
 }
 
