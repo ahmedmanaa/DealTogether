@@ -1263,10 +1263,11 @@ html {
     bottom: 20px;
     z-index: 900;
     line-height: 46px;
-  }
-  .go-top:hover {
-    background-color: #000;
-    color: #fff;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
   }
   [dir="rtl"]  .go-top{
     right: auto;
